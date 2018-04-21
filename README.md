@@ -17,10 +17,10 @@ Use your keyboard's four arrows to move Pacman around.
 
 #### 
 ```
-$python pacman.py -p <your-chosen-game> -l -k <number-of-preferred-ghosts>
+$python pacman.py -p <your-chosen-game> 
 ```
 Your game options are as follows: MinimaxAgent, ExpectiMaxAgent, AlphaBetaAgent, GreedyAgent, ReflexAgent.
 
 
-##### For other ways to play Pacman, check out the original UC Berkley and UofT AI courses.
+For other ways to play Pacman, check out the original UC Berkley and UofT AI courses: CS188 and CSC384.
 
