@@ -168,7 +168,6 @@ class MinimaxAgent(MultiAgentSearchAgent):
 		  gameState.getNumAgents():
 			Returns the total number of agents in the game
 		"""
-		"*** YOUR CODE HERE ***"
 
 		minimaxAction = []
 		actionList = []
@@ -253,7 +252,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 		"""
 		  Returns the minimax action using self.depth and self.evaluationFunction
 		"""
-		"*** YOUR CODE HERE ***"
+
 
 		initBetaVal = float ('inf')
 		initAlphaVal = - float('inf')
@@ -414,7 +413,6 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
 		  All ghosts should be modeled as choosing uniformly at random from their
 		  legal moves.
 		"""
-		"*** YOUR CODE HERE ***"
 
 		compiledActions = self.compileActions(gameState)
 		legalList = compiledActions[1]
@@ -542,7 +540,6 @@ def betterEvaluationFunction(currentGameState):
 	  conditions aforementioned.
 
 	"""
-	"*** YOUR CODE HERE ***"
 
 	pacmanPos = currentGameState.getPacmanPosition()
 
